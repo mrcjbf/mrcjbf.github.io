@@ -1,0 +1,40 @@
+.navbar-brand {
+    padding:0px;
+    margin-right:0px;
+    color: white;
+ 
+}
+.display-4{
+    font-size: 30px;
+}
+.display-2{
+    font-size: 20px;
+    text-align: center;
+}
+.viz-thumb{
+    width:100%;
+}
+.comp-thumb{
+    /* width:300px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+.home-thumb{
+    width:75px;
+}
+#dataheader{
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 770px) {
+    .jumbotron{
+    padding-top:75px;
+    /* background-color: blue; */
+    }
+    .dropdown-item.active{
+        
+    background-color: gray; 
+        }
+  }
